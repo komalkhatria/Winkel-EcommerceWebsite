@@ -30,14 +30,24 @@ body{
     justify-content: center;
 }
 .nav-container{
+    width: 75%;
     display: flex;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    color: black;
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
-    width: 80%;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+}
+.logo{
+    padding: 0px 30px;
+    font-weight: 800;
+    font-size: 1.3rem;
 }
 .navlinks{
+    width: 45%;
     display: flex;
-    justify-content: right;
+    justify-content: space-evenly;
+    font-size: 0.7rem;
 }
